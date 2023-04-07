@@ -59,12 +59,14 @@ python script.py
 
 You can use command-line arguments to modify the script's behavior. Here are some examples:
 
-    -To process emails with a different label, use the --label flag, followed by the label ID:
+-To process emails with a different label, use the --label flag, followed by the label ID:
+
     ```
     python script.py --label LABEL_ID
     ```
     
-    -To specify additional keywords or change the existing ones, use the --keywords flag, followed by a space-separated list of keywords:
+-To specify additional keywords or change the existing ones, use the --keywords flag, followed by a space-separated list of keywords:
+
     ```
     python script.py --keywords keyword1 keyword2 keyword3
     ```
