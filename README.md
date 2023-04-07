@@ -10,16 +10,15 @@ This Python script helps you clean up your Gmail account by searching for and de
 ## Installation
 
 1. Clone the repository:
-"""
-git clone https://github.com/yourusername/gmail-cleanup.git
-cd gmail-cleanup
-"""
+   """
+   git clone https://github.com/yourusername/gmail-cleanup.git
+   cd gmail-cleanup
+   """
 
 2. Install the required Python packages:
-"""
-pip install -r requirements.txt
-"""
-
+   """
+   pip install -r requirements.txt
+   """
 
 3. Set up the Gmail API:
 
@@ -48,6 +47,7 @@ label_id: "INBOX"
 keywords:
   - "unsubscribe"
 ```
+
 Replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with the appropriate values from the "client_secret.json" file.
 
 ## Usage
@@ -62,22 +62,21 @@ You can use command-line arguments to modify the script's behavior. Here are som
 -To process emails with a different label, use the --label flag, followed by the label ID:
 
     python script.py --label LABEL_ID
-    
+
 -To specify additional keywords or change the existing ones, use the --keywords flag, followed by a space-separated list of keywords:
 
     python script.py --keywords keyword1 keyword2 keyword3
-    
+
     -To run the script without actually deleting any emails (dry run), use the --dry-run flag:
 
     python script.py --dry-run
 
-    
+
     -To save the list of deleted email subjects to a file, use the --save-to-file flag, followed by the filename:
 
     python script.py --save-to-file deleted_emails.txt
 
-    
+
     -For more information on the available command-line arguments, run:
 
     python script.py --help
-
